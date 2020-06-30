@@ -1,4 +1,4 @@
-# Study-Of-Machine-Learning
+# Study-Of-Machine-Learning (In Progress)
 This repository contains the code used to study machine learning.
 
 # What I Learned
