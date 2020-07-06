@@ -34,3 +34,8 @@ print(np.concatenate((y_pred.reshape(len(y_pred), 1), y_test.reshape(len(y_test)
 # PREDICTING A NEW RESULT
 prediction = regressor.predict([[1, 0, 0, 160000, 130000, 300000]])
 print(prediction)
+
+# EVALUATINF THE MODEL PERFORMANCE
+from sklearn.metrics import r2_score
+performance = r2_score(y_test, y_pred)
+print(performance)
