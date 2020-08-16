@@ -30,3 +30,8 @@ regressor.fit(x_train, y_train) # Train the multiple linear regession model prev
 y_pred = regressor.predict(x_test)
 np.set_printoptions(precision = 2) #np.setprintoptions(precision = number of decimals)
 print(np.concatenate((y_pred.reshape(len(y_pred), 1), y_test.reshape(len(y_test), 1)), 1)) # Concatanate our 2 vectors vertical
+
+# EVALUATINF THE MODEL PERFORMANCE
+from sklearn.metrics import r2_score
+performance = r2_score(y_test, y_pred)
+print(performance)
