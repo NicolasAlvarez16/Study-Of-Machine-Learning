@@ -10,3 +10,6 @@ This repository contains the code I wrote to study machine learning.
    - Support Vector Regression
    - Decision Tree Regression
    - Random Forest Regression
+3. Classification
+   - Logistic Regression
+   
