@@ -12,4 +12,5 @@ This repository contains the code I wrote to study machine learning.
    - Random Forest Regression
 3. Classification
    - Logistic Regression
+   - K-Nearest Neighbors
    
